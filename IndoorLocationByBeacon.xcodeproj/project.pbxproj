@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B1837B01DADE51D00C2F638 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B1837AF1DADE51D00C2F638 /* GoogleService-Info.plist */; };
+		2B2C73601DA4EA0C00413F7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2C735F1DA4EA0C00413F7E /* AppDelegate.swift */; };
+		2B2C73621DA4EA0C00413F7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2C73611DA4EA0C00413F7E /* ViewController.swift */; };
+		2B2C73651DA4EA0C00413F7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B2C73631DA4EA0C00413F7E /* Main.storyboard */; };
+		2B2C73681DA4EA0C00413F7E /* IndoorLocationByBeacon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B2C73661DA4EA0C00413F7E /* IndoorLocationByBeacon.xcdatamodeld */; };
+		2B2C736A1DA4EA0C00413F7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B2C73691DA4EA0C00413F7E /* Assets.xcassets */; };
+		2B2C736D1DA4EA0C00413F7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B2C736B1DA4EA0C00413F7E /* LaunchScreen.storyboard */; };
+		2B2C73781DA4EA0C00413F7E /* IndoorLocationByBeaconTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2C73771DA4EA0C00413F7E /* IndoorLocationByBeaconTests.swift */; };
+		2B2C73831DA4EA0C00413F7E /* IndoorLocationByBeaconUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2C73821DA4EA0C00413F7E /* IndoorLocationByBeaconUITests.swift */; };
+		37AF33B1B83CCDA4CE3C494E /* Pods_IndoorLocationByBeaconUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D71E934BABB10C9569A67FD /* Pods_IndoorLocationByBeaconUITests.framework */; };
+		69AC5DA63A38129AF61408BA /* Pods_IndoorLocationByBeacon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BC4016B4B8759A5767580A2 /* Pods_IndoorLocationByBeacon.framework */; };
+		DEA16970588B6D66FDAC9444 /* Pods_IndoorLocationByBeaconTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A8594F90297B5C2C88A991 /* Pods_IndoorLocationByBeaconTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B2C73741DA4EA0C00413F7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B2C73541DA4EA0B00413F7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B2C735B1DA4EA0B00413F7E;
+			remoteInfo = IndoorLocationByBeacon;
+		};
+		2B2C737F1DA4EA0C00413F7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B2C73541DA4EA0B00413F7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B2C735B1DA4EA0B00413F7E;
+			remoteInfo = IndoorLocationByBeacon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		167B4D967FA2CCD643A006AF /* Pods-IndoorLocationByBeaconUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndoorLocationByBeaconUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IndoorLocationByBeaconUITests/Pods-IndoorLocationByBeaconUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2B1837AF1DADE51D00C2F638 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2B2C735C1DA4EA0B00413F7E /* IndoorLocationByBeacon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IndoorLocationByBeacon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B2C735F1DA4EA0C00413F7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B2C73611DA4EA0C00413F7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B2C73641DA4EA0C00413F7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B2C73671DA4EA0C00413F7E /* IndoorLocationByBeacon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IndoorLocationByBeacon.xcdatamodel; sourceTree = "<group>"; };
+		2B2C73691DA4EA0C00413F7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B2C736C1DA4EA0C00413F7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B2C736E1DA4EA0C00413F7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B2C73731DA4EA0C00413F7E /* IndoorLocationByBeaconTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IndoorLocationByBeaconTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B2C73771DA4EA0C00413F7E /* IndoorLocationByBeaconTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndoorLocationByBeaconTests.swift; sourceTree = "<group>"; };
+		2B2C73791DA4EA0C00413F7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B2C737E1DA4EA0C00413F7E /* IndoorLocationByBeaconUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IndoorLocationByBeaconUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B2C73821DA4EA0C00413F7E /* IndoorLocationByBeaconUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndoorLocationByBeaconUITests.swift; sourceTree = "<group>"; };
+		2B2C73841DA4EA0C00413F7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BC4016B4B8759A5767580A2 /* Pods_IndoorLocationByBeacon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IndoorLocationByBeacon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7671A066FD58612B683A92C5 /* Pods-IndoorLocationByBeacon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndoorLocationByBeacon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IndoorLocationByBeacon/Pods-IndoorLocationByBeacon.debug.xcconfig"; sourceTree = "<group>"; };
+		83A8594F90297B5C2C88A991 /* Pods_IndoorLocationByBeaconTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IndoorLocationByBeaconTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8628D731C5A68B6AA0C58636 /* Pods-IndoorLocationByBeaconTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndoorLocationByBeaconTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IndoorLocationByBeaconTests/Pods-IndoorLocationByBeaconTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8D71E934BABB10C9569A67FD /* Pods_IndoorLocationByBeaconUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IndoorLocationByBeaconUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EC6E7112704AA6480105E53 /* Pods-IndoorLocationByBeacon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndoorLocationByBeacon.release.xcconfig"; path = "Pods/Target Support Files/Pods-IndoorLocationByBeacon/Pods-IndoorLocationByBeacon.release.xcconfig"; sourceTree = "<group>"; };
+		99924D00B36C866F8BB7AFD3 /* Pods-IndoorLocationByBeaconUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndoorLocationByBeaconUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IndoorLocationByBeaconUITests/Pods-IndoorLocationByBeaconUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B90AF2634C35BB9A7D507946 /* Pods-IndoorLocationByBeaconTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndoorLocationByBeaconTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IndoorLocationByBeaconTests/Pods-IndoorLocationByBeaconTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B2C73591DA4EA0B00413F7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69AC5DA63A38129AF61408BA /* Pods_IndoorLocationByBeacon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B2C73701DA4EA0C00413F7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA16970588B6D66FDAC9444 /* Pods_IndoorLocationByBeaconTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B2C737B1DA4EA0C00413F7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37AF33B1B83CCDA4CE3C494E /* Pods_IndoorLocationByBeaconUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B2C73531DA4EA0B00413F7E = {
+			isa = PBXGroup;
+			children = (
+				2B2C735E1DA4EA0B00413F7E /* IndoorLocationByBeacon */,
+				2B2C73761DA4EA0C00413F7E /* IndoorLocationByBeaconTests */,
+				2B2C73811DA4EA0C00413F7E /* IndoorLocationByBeaconUITests */,
+				2B2C735D1DA4EA0B00413F7E /* Products */,
+				4A49A0281D99BDF1D582CD2E /* Pods */,
+				6B2316380BEFC9F04B71697F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2B2C735D1DA4EA0B00413F7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B2C735C1DA4EA0B00413F7E /* IndoorLocationByBeacon.app */,
+				2B2C73731DA4EA0C00413F7E /* IndoorLocationByBeaconTests.xctest */,
+				2B2C737E1DA4EA0C00413F7E /* IndoorLocationByBeaconUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B2C735E1DA4EA0B00413F7E /* IndoorLocationByBeacon */ = {
+			isa = PBXGroup;
+			children = (
+				2B1837AF1DADE51D00C2F638 /* GoogleService-Info.plist */,
+				2B2C735F1DA4EA0C00413F7E /* AppDelegate.swift */,
+				2B2C73611DA4EA0C00413F7E /* ViewController.swift */,
+				2B2C73631DA4EA0C00413F7E /* Main.storyboard */,
+				2B2C73691DA4EA0C00413F7E /* Assets.xcassets */,
+				2B2C736B1DA4EA0C00413F7E /* LaunchScreen.storyboard */,
+				2B2C736E1DA4EA0C00413F7E /* Info.plist */,
+				2B2C73661DA4EA0C00413F7E /* IndoorLocationByBeacon.xcdatamodeld */,
+			);
+			path = IndoorLocationByBeacon;
+			sourceTree = "<group>";
+		};
+		2B2C73761DA4EA0C00413F7E /* IndoorLocationByBeaconTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B2C73771DA4EA0C00413F7E /* IndoorLocationByBeaconTests.swift */,
+				2B2C73791DA4EA0C00413F7E /* Info.plist */,
+			);
+			path = IndoorLocationByBeaconTests;
+			sourceTree = "<group>";
+		};
+		2B2C73811DA4EA0C00413F7E /* IndoorLocationByBeaconUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B2C73821DA4EA0C00413F7E /* IndoorLocationByBeaconUITests.swift */,
+				2B2C73841DA4EA0C00413F7E /* Info.plist */,
+			);
+			path = IndoorLocationByBeaconUITests;
+			sourceTree = "<group>";
+		};
+		4A49A0281D99BDF1D582CD2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7671A066FD58612B683A92C5 /* Pods-IndoorLocationByBeacon.debug.xcconfig */,
+				8EC6E7112704AA6480105E53 /* Pods-IndoorLocationByBeacon.release.xcconfig */,
+				8628D731C5A68B6AA0C58636 /* Pods-IndoorLocationByBeaconTests.debug.xcconfig */,
+				B90AF2634C35BB9A7D507946 /* Pods-IndoorLocationByBeaconTests.release.xcconfig */,
+				99924D00B36C866F8BB7AFD3 /* Pods-IndoorLocationByBeaconUITests.debug.xcconfig */,
+				167B4D967FA2CCD643A006AF /* Pods-IndoorLocationByBeaconUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6B2316380BEFC9F04B71697F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BC4016B4B8759A5767580A2 /* Pods_IndoorLocationByBeacon.framework */,
+				83A8594F90297B5C2C88A991 /* Pods_IndoorLocationByBeaconTests.framework */,
+				8D71E934BABB10C9569A67FD /* Pods_IndoorLocationByBeaconUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B2C735B1DA4EA0B00413F7E /* IndoorLocationByBeacon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B2C73871DA4EA0C00413F7E /* Build configuration list for PBXNativeTarget "IndoorLocationByBeacon" */;
+			buildPhases = (
+				B4896BA4AB8271ABB092E1CF /* [CP] Check Pods Manifest.lock */,
+				2B2C73581DA4EA0B00413F7E /* Sources */,
+				2B2C73591DA4EA0B00413F7E /* Frameworks */,
+				2B2C735A1DA4EA0B00413F7E /* Resources */,
+				3E6DB2D73539C45BD019894B /* [CP] Embed Pods Frameworks */,
+				17A596D7AF67E67962C0DE28 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IndoorLocationByBeacon;
+			productName = IndoorLocationByBeacon;
+			productReference = 2B2C735C1DA4EA0B00413F7E /* IndoorLocationByBeacon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B2C73721DA4EA0C00413F7E /* IndoorLocationByBeaconTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B2C738A1DA4EA0C00413F7E /* Build configuration list for PBXNativeTarget "IndoorLocationByBeaconTests" */;
+			buildPhases = (
+				9C5FA50C0761041912838C37 /* [CP] Check Pods Manifest.lock */,
+				2B2C736F1DA4EA0C00413F7E /* Sources */,
+				2B2C73701DA4EA0C00413F7E /* Frameworks */,
+				2B2C73711DA4EA0C00413F7E /* Resources */,
+				6290027283CFC415B209C737 /* [CP] Embed Pods Frameworks */,
+				66646DAFCA98F3458F88AD3C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B2C73751DA4EA0C00413F7E /* PBXTargetDependency */,
+			);
+			name = IndoorLocationByBeaconTests;
+			productName = IndoorLocationByBeaconTests;
+			productReference = 2B2C73731DA4EA0C00413F7E /* IndoorLocationByBeaconTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B2C737D1DA4EA0C00413F7E /* IndoorLocationByBeaconUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B2C738D1DA4EA0C00413F7E /* Build configuration list for PBXNativeTarget "IndoorLocationByBeaconUITests" */;
+			buildPhases = (
+				01E6E76E629EA1160EB30DF5 /* [CP] Check Pods Manifest.lock */,
+				2B2C737A1DA4EA0C00413F7E /* Sources */,
+				2B2C737B1DA4EA0C00413F7E /* Frameworks */,
+				2B2C737C1DA4EA0C00413F7E /* Resources */,
+				B650AADEE957FBA3398AA136 /* [CP] Embed Pods Frameworks */,
+				81A8AC90528F219650A382C0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B2C73801DA4EA0C00413F7E /* PBXTargetDependency */,
+			);
+			name = IndoorLocationByBeaconUITests;
+			productName = IndoorLocationByBeaconUITests;
+			productReference = 2B2C737E1DA4EA0C00413F7E /* IndoorLocationByBeaconUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B2C73541DA4EA0B00413F7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Moosung Gil";
+				TargetAttributes = {
+					2B2C735B1DA4EA0B00413F7E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = F9L8VT5J59;
+						ProvisioningStyle = Automatic;
+					};
+					2B2C73721DA4EA0C00413F7E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2B2C735B1DA4EA0B00413F7E;
+					};
+					2B2C737D1DA4EA0C00413F7E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2B2C735B1DA4EA0B00413F7E;
+					};
+				};
+			};
+			buildConfigurationList = 2B2C73571DA4EA0B00413F7E /* Build configuration list for PBXProject "IndoorLocationByBeacon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B2C73531DA4EA0B00413F7E;
+			productRefGroup = 2B2C735D1DA4EA0B00413F7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B2C735B1DA4EA0B00413F7E /* IndoorLocationByBeacon */,
+				2B2C73721DA4EA0C00413F7E /* IndoorLocationByBeaconTests */,
+				2B2C737D1DA4EA0C00413F7E /* IndoorLocationByBeaconUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B2C735A1DA4EA0B00413F7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B2C736D1DA4EA0C00413F7E /* LaunchScreen.storyboard in Resources */,
+				2B1837B01DADE51D00C2F638 /* GoogleService-Info.plist in Resources */,
+				2B2C736A1DA4EA0C00413F7E /* Assets.xcassets in Resources */,
+				2B2C73651DA4EA0C00413F7E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B2C73711DA4EA0C00413F7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B2C737C1DA4EA0C00413F7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01E6E76E629EA1160EB30DF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		17A596D7AF67E67962C0DE28 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IndoorLocationByBeacon/Pods-IndoorLocationByBeacon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E6DB2D73539C45BD019894B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IndoorLocationByBeacon/Pods-IndoorLocationByBeacon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6290027283CFC415B209C737 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IndoorLocationByBeaconTests/Pods-IndoorLocationByBeaconTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66646DAFCA98F3458F88AD3C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IndoorLocationByBeaconTests/Pods-IndoorLocationByBeaconTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81A8AC90528F219650A382C0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IndoorLocationByBeaconUITests/Pods-IndoorLocationByBeaconUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C5FA50C0761041912838C37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B4896BA4AB8271ABB092E1CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B650AADEE957FBA3398AA136 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IndoorLocationByBeaconUITests/Pods-IndoorLocationByBeaconUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B2C73581DA4EA0B00413F7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B2C73621DA4EA0C00413F7E /* ViewController.swift in Sources */,
+				2B2C73601DA4EA0C00413F7E /* AppDelegate.swift in Sources */,
+				2B2C73681DA4EA0C00413F7E /* IndoorLocationByBeacon.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B2C736F1DA4EA0C00413F7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B2C73781DA4EA0C00413F7E /* IndoorLocationByBeaconTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B2C737A1DA4EA0C00413F7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B2C73831DA4EA0C00413F7E /* IndoorLocationByBeaconUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B2C73751DA4EA0C00413F7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B2C735B1DA4EA0B00413F7E /* IndoorLocationByBeacon */;
+			targetProxy = 2B2C73741DA4EA0C00413F7E /* PBXContainerItemProxy */;
+		};
+		2B2C73801DA4EA0C00413F7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B2C735B1DA4EA0B00413F7E /* IndoorLocationByBeacon */;
+			targetProxy = 2B2C737F1DA4EA0C00413F7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B2C73631DA4EA0C00413F7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B2C73641DA4EA0C00413F7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B2C736B1DA4EA0C00413F7E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B2C736C1DA4EA0C00413F7E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B2C73851DA4EA0C00413F7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B2C73861DA4EA0C00413F7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B2C73881DA4EA0C00413F7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7671A066FD58612B683A92C5 /* Pods-IndoorLocationByBeacon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F9L8VT5J59;
+				INFOPLIST_FILE = IndoorLocationByBeacon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hatiolab.IndoorLocationByBeacon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2B2C73891DA4EA0C00413F7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EC6E7112704AA6480105E53 /* Pods-IndoorLocationByBeacon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F9L8VT5J59;
+				INFOPLIST_FILE = IndoorLocationByBeacon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hatiolab.IndoorLocationByBeacon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2B2C738B1DA4EA0C00413F7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8628D731C5A68B6AA0C58636 /* Pods-IndoorLocationByBeaconTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IndoorLocationByBeaconTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hatiolab.IndoorLocationByBeaconTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IndoorLocationByBeacon.app/IndoorLocationByBeacon";
+			};
+			name = Debug;
+		};
+		2B2C738C1DA4EA0C00413F7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B90AF2634C35BB9A7D507946 /* Pods-IndoorLocationByBeaconTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IndoorLocationByBeaconTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hatiolab.IndoorLocationByBeaconTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IndoorLocationByBeacon.app/IndoorLocationByBeacon";
+			};
+			name = Release;
+		};
+		2B2C738E1DA4EA0C00413F7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99924D00B36C866F8BB7AFD3 /* Pods-IndoorLocationByBeaconUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = IndoorLocationByBeaconUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hatiolab.IndoorLocationByBeaconUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = IndoorLocationByBeacon;
+			};
+			name = Debug;
+		};
+		2B2C738F1DA4EA0C00413F7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 167B4D967FA2CCD643A006AF /* Pods-IndoorLocationByBeaconUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = IndoorLocationByBeaconUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hatiolab.IndoorLocationByBeaconUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = IndoorLocationByBeacon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B2C73571DA4EA0B00413F7E /* Build configuration list for PBXProject "IndoorLocationByBeacon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B2C73851DA4EA0C00413F7E /* Debug */,
+				2B2C73861DA4EA0C00413F7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B2C73871DA4EA0C00413F7E /* Build configuration list for PBXNativeTarget "IndoorLocationByBeacon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B2C73881DA4EA0C00413F7E /* Debug */,
+				2B2C73891DA4EA0C00413F7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B2C738A1DA4EA0C00413F7E /* Build configuration list for PBXNativeTarget "IndoorLocationByBeaconTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B2C738B1DA4EA0C00413F7E /* Debug */,
+				2B2C738C1DA4EA0C00413F7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B2C738D1DA4EA0C00413F7E /* Build configuration list for PBXNativeTarget "IndoorLocationByBeaconUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B2C738E1DA4EA0C00413F7E /* Debug */,
+				2B2C738F1DA4EA0C00413F7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2B2C73661DA4EA0C00413F7E /* IndoorLocationByBeacon.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2B2C73671DA4EA0C00413F7E /* IndoorLocationByBeacon.xcdatamodel */,
+			);
+			currentVersion = 2B2C73671DA4EA0C00413F7E /* IndoorLocationByBeacon.xcdatamodel */;
+			path = IndoorLocationByBeacon.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2B2C73541DA4EA0B00413F7E /* Project object */;
+}

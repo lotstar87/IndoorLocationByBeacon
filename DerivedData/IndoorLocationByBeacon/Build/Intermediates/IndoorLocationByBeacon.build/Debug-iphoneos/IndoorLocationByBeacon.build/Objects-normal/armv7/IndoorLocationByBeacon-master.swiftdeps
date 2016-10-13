@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "2deb5dfa548e8b2580e615edc5aee271"
+build_time: [529562480, 638728000]
+inputs:
+  "/Users/gil/dev/IndoorLocationByBeacon/IndoorLocationByBeacon/ViewController.swift": [529557607, 0]
+  "/Users/gil/dev/IndoorLocationByBeacon/IndoorLocationByBeacon/AppDelegate.swift": [529562243, 0]

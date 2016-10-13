@@ -1,0 +1,6 @@
+framework module Pods_IndoorLocationByBeaconTests {
+  umbrella header "Pods-IndoorLocationByBeaconTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

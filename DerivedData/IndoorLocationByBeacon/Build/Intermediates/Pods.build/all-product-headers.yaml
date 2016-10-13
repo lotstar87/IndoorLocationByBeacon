@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/gil/dev/IndoorLocationByBeacon/DerivedData/IndoorLocationByBeacon/Build/Products/Debug-iphoneos/Pods_IndoorLocationByBeacon.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-IndoorLocationByBeacon-umbrella.h",
+          'external-contents': "/Users/gil/dev/IndoorLocationByBeacon/Pods/Target Support Files/Pods-IndoorLocationByBeacon/Pods-IndoorLocationByBeacon-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_IndoorLocationByBeacon-Swift.h",
+          'external-contents': "/Users/gil/dev/IndoorLocationByBeacon/DerivedData/IndoorLocationByBeacon/Build/Products/Debug-iphoneos/Pods_IndoorLocationByBeacon.framework/Headers/Pods_IndoorLocationByBeacon-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/gil/dev/IndoorLocationByBeacon/DerivedData/IndoorLocationByBeacon/Build/Products/Debug-iphoneos/Pods_IndoorLocationByBeacon.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/gil/dev/IndoorLocationByBeacon/DerivedData/IndoorLocationByBeacon/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-IndoorLocationByBeacon.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

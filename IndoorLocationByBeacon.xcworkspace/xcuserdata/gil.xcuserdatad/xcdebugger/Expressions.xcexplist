@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ViewController.trilateration(point1 : ViewController.Point, point2 : ViewController.Point, point3 : ViewController.Point) -&gt; [Double]:ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "distA">
+            </PersistentString>
+            <PersistentString
+               value = "">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.locationManager(CLLocationManager, didRangeBeacons : [CLBeacon], in : CLBeaconRegion) -&gt; ():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "beacon.description">
+            </PersistentString>
+            <PersistentString
+               value = "knownBeacons.description">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.getBeaconInfo(String, major : Int, minor : Int) -&gt; [String : AnyObject]:ViewController.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

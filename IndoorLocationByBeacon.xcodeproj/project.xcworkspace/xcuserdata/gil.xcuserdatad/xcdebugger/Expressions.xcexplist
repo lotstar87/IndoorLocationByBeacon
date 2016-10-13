@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ViewController.locationManager(CLLocationManager, didChangeAuthorization : CLAuthorizationStatus) -&gt; ():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "status == . authorizedWhenInUse">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.(updateDistance(CLProximity) -&gt; ()).(closure #1):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "distance.rawValue">
+            </PersistentString>
+            <PersistentString
+               value = "knowBeacons[0].accuracy">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.locationManager(CLLocationManager, didRangeBeacons : [CLBeacon], in : CLBeaconRegion) -&gt; ():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "knownBeacons[0].proximityUUID">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.centralManager(CBCentralManager, didDiscover : CBPeripheral, advertisementData : [String : Any], rssi : NSNumber) -&gt; ():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "advertisementData.description">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
